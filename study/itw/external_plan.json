@@ -1,0 +1,5 @@
+{
+  "source": "https://huggingface.co/datasets/mueller91/In-The-Wild/resolve/eee168f92c367f8c82ff2cf42b6f61e362fd6211/release_in_the_wild.zip",
+  "upstream_commit": "eee168f92c367f8c82ff2cf42b6f61e362fd6211",
+  "candidate_manifest_sha256": "16f1d9bfdadd8dabff7cf45793e48682ccd67584955cf46552eca8046e1dece4"
+}

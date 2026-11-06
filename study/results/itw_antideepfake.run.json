@@ -1,0 +1,17 @@
+{
+  "model": "antideepfake",
+  "group": "itw",
+  "device": "mps",
+  "torch": "2.5.1",
+  "batch_size": 8,
+  "threads": 4,
+  "checkpoint_sha256": "828ee456122f86d5d631cb7895a10e5c62c78a4fcb8a8b1c42cb5838a9abcfe0",
+  "manifest_sha256": "b4d38c2951cf40acae478de742a487985d6e8d7f27d7c2982c839b4ef46addd6",
+  "expected_scores": 86000,
+  "new_scores": 86000,
+  "previous_scores": 0,
+  "forward_seconds": 1651.7490023980056,
+  "wall_seconds": 1667.5411709589998,
+  "score_semantics": "fake logit0 minus real logit1 (monotonic fake softmax probability)",
+  "all_modules_eval": true
+}

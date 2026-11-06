@@ -1,0 +1,16 @@
+{
+  "radar": {
+    "repo": "radar-challenge/BASELINE-SSL_AASIST",
+    "commit": "54e311de24f052c5530de08317d48189031bab1b"
+  },
+  "aasist": {
+    "repo": "clovaai/aasist",
+    "commit": "a04c9863f63d44471dde8a6abcb3b082b07cd1d1"
+  },
+  "fairseq": {
+    "repo": "facebookresearch/fairseq",
+    "tag": "v0.12.2",
+    "commit": "4a388e64cd646ed7d7ad8de8fae55df2b8eea91d",
+    "runtime": "pure-Python inference source; no training/native batch extensions used"
+  }
+}

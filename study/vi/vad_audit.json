@@ -1,0 +1,19 @@
+{
+  "files": 1200,
+  "windows": 21600,
+  "waveforms_unpadded": true,
+  "full_recording_segmentation": true,
+  "crop_fraction": "Intersection of predicted full-recording speech intervals with each unpadded crop; not VAD ground truth",
+  "no_detector_scores_used": true,
+  "settings": {
+    "threshold": 0.5,
+    "neg_threshold": 0.35,
+    "sampling_rate": 16000,
+    "min_speech_duration_ms": 250,
+    "min_silence_duration_ms": 100,
+    "speech_pad_ms": 0,
+    "return_seconds": false
+  },
+  "model_sha256": "e1122837f4154c511485fe0b9c64455f7b929c96fbb8d79fbdb336383ebd3720",
+  "config_sha256": "f5af8ca1f6a56d86fe0b1e7814122a4cdc6bcd536d5ae0c612edc6596dd5f2cf"
+}

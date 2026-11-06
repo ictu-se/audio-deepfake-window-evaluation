@@ -1,0 +1,14 @@
+{
+  "n": 2000,
+  "counts": {
+    "bonafide": 1000,
+    "spoof": 1000
+  },
+  "manifest_sha256": "b4d38c2951cf40acae478de742a487985d6e8d7f27d7c2982c839b4ef46addd6",
+  "exclusions": [],
+  "exact_PCM_duplicates": 0,
+  "all_sources_and_caches_hashed": true,
+  "actual_format_duration_finite_checks_passed": true,
+  "speaker_groups": 53,
+  "scored_before_manifest": false
+}

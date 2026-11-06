@@ -1,0 +1,17 @@
+{
+  "model": "ssl",
+  "group": "itw",
+  "device": "mps",
+  "torch": "2.5.1",
+  "batch_size": 8,
+  "threads": 4,
+  "checkpoint_sha256": "1cf904f1d84c867c278cd42161df5367939d61cc28bfefd239bc995af59c2804",
+  "manifest_sha256": "b4d38c2951cf40acae478de742a487985d6e8d7f27d7c2982c839b4ef46addd6",
+  "expected_scores": 86000,
+  "new_scores": 86000,
+  "previous_scores": 0,
+  "forward_seconds": 3559.820637712946,
+  "wall_seconds": 3576.6682817499996,
+  "score_semantics": "fake logit0",
+  "all_modules_eval": true
+}

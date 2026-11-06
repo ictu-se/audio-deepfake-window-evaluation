@@ -1,0 +1,28 @@
+{
+  "model": "aasist",
+  "n_excluded_technical_files": 8,
+  "n_inputs": 344,
+  "torch": "2.5.1",
+  "cpu_vs_mps_max_abs_score_difference": 9.08970832824707e-06,
+  "median_abs_score_difference": 9.5367431640625e-07,
+  "n_differences_over_1e_3": 0,
+  "runtimes": {
+    "cpu": {
+      "seconds": 21.007384541999997,
+      "seconds_per_input": 0.06106797831976743,
+      "batch_size": 8,
+      "finite": true,
+      "checkpoint_sha256": "51d2d9cf0738172f61e2a384ec50a54a55363240f67c971ed55a92435bc1a1c0"
+    },
+    "mps": {
+      "seconds": 1.6997544589999976,
+      "seconds_per_input": 0.004941146683139528,
+      "batch_size": 8,
+      "finite": true,
+      "checkpoint_sha256": "51d2d9cf0738172f61e2a384ec50a54a55363240f67c971ed55a92435bc1a1c0"
+    }
+  },
+  "selected_device": "mps",
+  "runtime_rule": "Legacy MPS retained with known numerical sensitivity; new model uses MPS only if technical max difference<=1e-3, otherwise CPU. No accuracy-based selection.",
+  "no_scientific_metrics_computed": true
+}

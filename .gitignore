@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+workspace/
+study/models/
+core/checkpoints/
+core/vendor/fairseq_v0122/
+core/vendor/aasist/models/weights/
+rerun_scores/
+*.partial

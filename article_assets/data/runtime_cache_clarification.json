@@ -1,0 +1,7 @@
+{
+  "recorded_utc": "2026-11-06T12:53:49.039598+00:00",
+  "role": "Technical timing interpretation, recorded before timing outcomes; no inference/statistical code or primary plan change.",
+  "original_scope_label": "warm-cache",
+  "actual_warmup": "Classifier batch sizes1 and3, VAD, and decoding of the first technical file are warmed explicitly. Timed policies repeatedly read each local source. First reads of other source files are not independently verified warm; caches are neither flushed nor uniformly controlled.",
+  "interpretation": "Treat medians as warmed-model, repeated-local-read measurements on a shared host, not uniformly controlled warm-cache, cold-start, GPU-isolated or deployment latency."
+}

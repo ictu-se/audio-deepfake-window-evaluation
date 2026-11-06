@@ -1,0 +1,93 @@
+{
+  "dataset_record": 22110815,
+  "language_role": {
+    "VI": "primary",
+    "EN": "secondary; not causal language contrast"
+  },
+  "sampling": "VI balanced classes, deterministic SHA256 ranks within metadata eligibility >=4.04s; EN matched to within-class VI duration quantiles without replacement",
+  "pilot_n": 200,
+  "sets": {
+    "calibration": {
+      "n": 400,
+      "sha256": "acb88e99ab2f67972301fb8b832b3a9ba50f6332156cf9932cb39051bedbd5a8"
+    },
+    "main_vi": {
+      "n": 2000,
+      "sha256": "3311a5e4c1c9b2ece109bad5014fdd5ad7b871a3c2ecf59cdb4f109b075530ef"
+    },
+    "secondary_en": {
+      "n": 1000,
+      "sha256": "1ee61043b06dafcac1242a32fec8d2645771f1f0797578781ccb72c53c3e0d3d"
+    }
+  },
+  "sample_rate": 16000,
+  "input_samples": 64600,
+  "durations_s": [
+    1,
+    2,
+    4
+  ],
+  "positions": [
+    "start",
+    "middle",
+    "end"
+  ],
+  "padding": [
+    "repeat",
+    "zero"
+  ],
+  "reference": "official first 64600 samples; repeat only if required",
+  "score_orientation": {
+    "aasist": "negative output logit 1 (original bona fide score)",
+    "ssl": "output logit 0 (original RADAR fake score)"
+  },
+  "primary_endpoint": "mean across 1s and 2s of EER(zero)-EER(repeat), averaged across positions; one contrast/model",
+  "secondary_endpoints": [
+    "duration/location/padding cell EER and AUC",
+    "same contrasts on EN",
+    "mean/median/max over window scores at matched inference cost"
+  ],
+  "threshold_secondary": "one EER-rule threshold per model from VI calibration official reference; frozen across main conditions",
+  "uncertainty": "paired class-stratified file bootstrap, 2000 draws; unknown speaker/content dependence remains",
+  "multiplicity": "two model primary contrasts; 97.5% percentile intervals; exploratory cells have no family-wide claim",
+  "weights": "frozen; no training or coefficient fitting",
+  "status": "locked_before_any_main_metrics",
+  "weights_frozen": true,
+  "scoring_runtime": {
+    "aasist": {
+      "python": "python3.9",
+      "device": "mps",
+      "batch_size": 8,
+      "validation": "accelerator_validation_aasist.json",
+      "torch": "2.5.1"
+    },
+    "ssl": {
+      "python": "python3.9",
+      "device": "mps",
+      "batch_size": 8,
+      "validation": "accelerator_validation_ssl.json",
+      "torch": "2.5.1"
+    }
+  },
+  "pilot_runtime": "CPU PyTorch1.13.1; excluded from main",
+  "code_sha256": {
+    "pilot_incremental.py": "63059e17fc5c31f6989c98edde106a9f04ad117f23123c2c90fa59571a87610a",
+    "main_incremental.py": "c10019ef833aa179548d153fab4106e6a73c3234bf12efef7358f901a84f844f",
+    "audit_scores.py": "90e05836f0ae88d5d54739351b60a4c712965bed8f1a1ad1b14a3e9f56867575",
+    "download_radar.py": "cfc4564a6b614e3111eb0147d954a7d48e9cde8940d804ed4da8665bdcf5fd58",
+    "shortform.py": "85546d6fbd3d6ef85893cc17155801526df486afb74c02db8a314339954c000e",
+    "check_pipeline.py": "786f3f5f13ecc9dcfde31851278536a4784d909f05dae029e2aae7ed90b9034d",
+    "analyze_shortform.py": "e33e41e71413f49daa6fbbd273a53d9a3bbb2e7491b5453ea39bcff1d3bb8678",
+    "prepare_ssl_checkpoint.py": "5d3b3e67924fdbfabf9f57ce96daf8611dd13ebe5fc9df46da31c33358a9a33a",
+    "validate_accelerator.py": "94a3329d4079b9d03c44ce5e4dfb4965492a81ed4807b664c289dce8291cb816",
+    "run_pipeline.py": "2dbf062a6af22f42154b12968ac3d23e19e9ed3eb3c90dd634529ffca286ebb5",
+    "extract_radar.py": "30a1ce085cb6ac9059ac35f09d775d8f691306e50e76ba6862fe2eca36f0225c",
+    "download_runtime_wheels.py": "de1e4d549a182df63074dc7f9dd8cc3abd3bacc3a5479c2bce2566b148cd9286",
+    "pilot_ssl_incremental.py": "629b1446337cbf896e7837a2542a5f8054cdbbb455aab04343579d7d9907004d",
+    "prepare_manifests.py": "1d938d9155beed3bd94c4cd3ef88bf2cb9a0bbcb990a9ca8c47f7823dc876da9",
+    "download_checkpoint_ranges.py": "92500ff35fdcb14d46ce550e4f6add35493f30faa983d674c62fff8afbc81a1a"
+  },
+  "locked_utc": "2026-11-06T05:33:21.723118+00:00",
+  "endpoint_or_candidate_grid_changed_after_pilot": false,
+  "scheduling_amendment": "Compute provisional predictions during transfer; accept only after full archive/cache/row audits. No metrics inspected."
+}

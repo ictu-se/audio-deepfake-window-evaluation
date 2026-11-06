@@ -1,0 +1,11 @@
+{
+  "technical_files": 8,
+  "repetitions": 3,
+  "labels_or_accuracy_used": false,
+  "torch_threads": 1,
+  "benchmark": "Warm-cache raw FLAC decode/resample, crop selection, optional full-recording VAD, classifier. Mean-three batches 3 inputs in one model call; other policies batch1.",
+  "model_only_time": "Excludes decode/VAD/device transfer; synchronized around classifier computation",
+  "memory": "Per-process historical max RSS on macOS plus current MPS driver allocation; not isolated per-policy peak memory",
+  "streaming_claim": false,
+  "clinical_or_deployment_latency_claim": false
+}

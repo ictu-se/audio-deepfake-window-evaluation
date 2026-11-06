@@ -1,0 +1,28 @@
+{
+  "model": "ssl",
+  "n_excluded_technical_files": 8,
+  "n_inputs": 344,
+  "torch": "2.5.1",
+  "cpu_vs_mps_max_abs_score_difference": 0.004141569137573242,
+  "median_abs_score_difference": 4.291534423828125e-06,
+  "n_differences_over_1e_3": 1,
+  "runtimes": {
+    "cpu": {
+      "seconds": 40.404043458000004,
+      "seconds_per_input": 0.11745361470348838,
+      "batch_size": 8,
+      "finite": true,
+      "checkpoint_sha256": "1cf904f1d84c867c278cd42161df5367939d61cc28bfefd239bc995af59c2804"
+    },
+    "mps": {
+      "seconds": 6.510413208000003,
+      "seconds_per_input": 0.018925619790697682,
+      "batch_size": 8,
+      "finite": true,
+      "checkpoint_sha256": "1cf904f1d84c867c278cd42161df5367939d61cc28bfefd239bc995af59c2804"
+    }
+  },
+  "selected_device": "mps",
+  "runtime_rule": "Legacy MPS retained with known numerical sensitivity; new model uses MPS only if technical max difference<=1e-3, otherwise CPU. No accuracy-based selection.",
+  "no_scientific_metrics_computed": true
+}

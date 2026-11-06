@@ -1,0 +1,17 @@
+{
+  "model": "rawnet2",
+  "group": "calibration",
+  "device": "mps",
+  "torch": "2.5.1",
+  "batch_size": 8,
+  "threads": 4,
+  "checkpoint_sha256": "52d8ad5f524a0f600c7c876d7a157a8f06c44a03504d0b2795c852f5e42c9127",
+  "manifest_sha256": "acb88e99ab2f67972301fb8b832b3a9ba50f6332156cf9932cb39051bedbd5a8",
+  "expected_scores": 400,
+  "new_scores": 400,
+  "previous_scores": 0,
+  "forward_seconds": 2.577577331,
+  "wall_seconds": 3.175132542,
+  "score_semantics": "negative bona fide log-probability1",
+  "all_modules_eval": true
+}

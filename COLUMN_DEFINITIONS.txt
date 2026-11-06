@@ -1,0 +1,58 @@
+EXPANSION OUTPUT SEMANTICS
+
+Raw score CSV: one row per file/condition/pipeline. score is spoof-positive,
+not a calibrated probability. output0/output1 retain native classifier outputs.
+Condition 'official' names the implementation's first64,600-sample reference;
+it is not a claim of an official challenge or whole-benchmark result.
+
+source_eighths k: source_offset=floor((N-payload_samples)*k/8). input_offset
+is a separate sample index in the fixed64,600-sample raw model input. Padding
+is applied before native model preprocessing. A4s crop has64,000 payload
+samples and600 additional samples; reference has64,600 payload samples.
+
+all_cells.csv, policies.csv, offset_profiles.csv: EER and class error rates
+are percentages. AUC is a proportion. These EERs use the declared nearest
+empirical tied-score ROC rule without interpolation or score-polarity reversal.
+
+expansion_summary.json primary/placement intervals and estimates: percentage
+points. bootstrap_<cohort>_<model>.npy: primary contrast draws in EER PROPORTION
+units; multiply by100 to obtain percentage points. These arrays contain
+statistics, not audio, learned embeddings or model parameters.
+
+policies.csv detector_forwards: a retained analysis-field name counting the
+number of detector INPUTS contributing to a policy score (three for mean_three,
+one for the other rules). It does NOT assert three Python forward calls. The
+runtime benchmark explicitly evaluates mean_three as a single batch of three
+inputs; all rules use one batch/call. See detector_inputs and
+detector_batch_calls in policy_runtime.csv.
+
+Policy EERs are fitted-on-target discrimination summaries. Class errors use
+one fixed separate-calibration reference threshold per pipeline, not a newly
+fitted policy-specific target threshold. Their nominal95% intervals jointly
+resample calibration and target files/groups. All policy/VAD/placement/profile
+analyses are secondary; primary eight-contrast allocation does not extend to
+their nominal intervals. Duration-averaged policy EER is an arithmetic mean
+of1s and2s EERs, not an EER calculated from pooled scores.
+
+VAD fraction is interval overlap from whole-unpadded-recording Silero VAD,
+not human speech annotation. VAD sensitivity uses the same retained-file mask
+for both durations and all pipelines within a cohort. It changes population.
+
+input_placement.csv mean_abs_score_change: native score units, not a common
+cross-pipeline scale. A small EER change does not establish score invariance.
+
+policy_runtime.csv: seconds, warmed-classifier, repeated-read Vietnamese raw FLAC processing on the
+recorded shared Mac host. total_seconds includes decode/resample, selection,
+optional full-file VAD, transfer and synchronized classifier computation.
+model_seconds excludes decode/VAD/transfer. Final policy-score reduction,
+copying final scores to CPU and threshold decisions are outside both timing
+boundaries. peak_process_rss_bytes is a process
+history maximum on macOS, not isolated per-policy peak RAM. mps_driver_bytes
+is current driver allocation, not an isolated memory peak. Runtime includes
+background workload; host_load.csv is ps CPU/RSS context, not GPU utilization.
+
+input_provenance.csv: source_sha256 hashes source bytes; pcm_sha256 hashes
+decoded float32 sample bytes; cache_sha256 hashes the .npy file. These are
+separate invariants. ITW uses verified member Content-Range/CRC32/local SHA;
+no whole-ZIP SHA verification is claimed. IDs and exact PCM differ from prior
+cached files; stronger speaker/content/generator disjointness is not established.

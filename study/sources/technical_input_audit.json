@@ -1,0 +1,8 @@
+{
+  "technical_files": 8,
+  "original_condition_waveforms_bitwise_identical": 152,
+  "extra_same_payload_placements_verified": 96,
+  "conditions_per_file": 43,
+  "all_passed": true,
+  "no_scientific_model_outcomes_used": true
+}

@@ -1,0 +1,26 @@
+{
+  "phase": "expansion_run_20261106",
+  "frozen_run_sha256": "90f196a3af7f9a4a3a493b98009e8c477338b9101ac3544ec93e46e69f7a2650",
+  "source_file_sha256": {
+    "results/expansion_summary.json": "326478c83b80f26cd545a7af453f881e1adf61adbffbf7f933a1ff526a28fd84",
+    "results/all_cells.csv": "0e3d1aec354d49f4986161405e8d514211782f5319753a33f08a1359aa533604",
+    "results/policies.csv": "afdfc8ed376d6b369b70a10a7e7da887776b90d281d8d3084609471a12485fb5",
+    "results/policy_runtime.csv": "c5454ae3c78c799db9bc3fd30e3722d29bae2370bf19c7cc3651e497a8fe457d",
+    "reporting/completed_results/figure_primary.csv": "2bde1949ad703fa1c9dcef14bd8ceb502419f4b324d2c4b068a43bb936b0d1d9",
+    "reporting/completed_results/figure_placement.csv": "2d2a9a1e5b15d9caac48c4a622044bde94f3d2fbc0c0208b488eb231f1822850",
+    "reporting/completed_results/figure_profiles.csv": "38ffbc4f1cca6aaa09c833e37c5a0fb46a1d6a34174d27e6c28661c49d0119f3",
+    "reporting/completed_results/plot_figures.py": "d760a4bf736b385d1620c09bc02a7873c010f1594f5bfc58d1a37a4c5855d8b5",
+    "reporting/completed_results/primary_replication.pdf": "c8e9ba4f010230fe194612258a2af066e7bf70cb389355893c312835510a66c7",
+    "reporting/completed_results/primary_replication.svg": "ad131d887342ff1681ea531fc850a9aba78ceab68392fb3c29abb2c10582f5b9",
+    "reporting/completed_results/identical_content_placement.pdf": "9a0867932c7f1dfb697110ebef777aa4d0b3f6577b6848e2f14b39382a5189a4",
+    "reporting/completed_results/identical_content_placement.svg": "34582bf5d51588828700ca2258ae8995d4f19e6dc5e0d092dc04e425fa09875b",
+    "reporting/completed_results/offset_profiles.pdf": "03b5eb3908ea0407eb8c7f8342709f58db03f5efccf2bc581303d05f30ab223d",
+    "reporting/completed_results/offset_profiles.svg": "b8861a864df1384c9e437b90f8f0911bd73a2002a3b036227c67cc2940b24f5d",
+    "results/score_audit.json": "3565ff57d6500f62af393c44b72e362d61a8ad8aa94bb0924a5c20c0b2e58ccc",
+    "results/policy_runtime_scope.json": "a1e6e3567885bc0da873e70cd8fef7ccb0c3ee16c15d90b1e09547577864881b",
+    "reporting/point_estimate_verification.json": "17999ecc2f40c4bb8a0127f10111d483900a0e108a04b6377c6e5bfdf01bedc3",
+    "reporting/package_statistics_verification.json": "92bcc9f10a7e5510dfb4601278dafc80394bcf371cafe4a161995382dcc4acea",
+    "reporting/completed_results/runtime_host_context.json": "8f913a1411f6b6fca166e2051cc5dd9ea818dd6f607202664189b7cd0bba642e",
+    "reporting/completed_results/runtime_cache_clarification.json": "476d6b7aaea6e6d91ab9f45ec8235625f4d2e67796e4509ada0171e65745626d"
+  }
+}

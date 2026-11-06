@@ -1,0 +1,7 @@
+{
+  "observations_during_policy_benchmark": 8,
+  "llama_server_observations": 8,
+  "max_llama_server_rss_GiB": 14.317642211914062,
+  "median_llama_server_cpu_percent": 289.85,
+  "interpretation": "Shared host, warmed classifier and repeated local reads; first-read file caches are not uniformly verified warm. OS process CPU/RSS observations are not direct GPU utilization. Neither idle-host nor GPU-isolated timing is claimed; other programs were not stopped."
+}

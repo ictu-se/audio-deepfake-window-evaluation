@@ -1,0 +1,22 @@
+{
+  "zip_sha256": "e0d9871fb680b31ccf7c7e7ef5254ed6c72cd50b109fd0adf1108b00b3177512",
+  "included_files_verified": 177,
+  "statistical_outputs_recomputed": 13,
+  "all_recomputed_outputs_bitwise_identical": true,
+  "audio_or_models_needed": false,
+  "output_sha256": {
+    "expansion_summary.json": "326478c83b80f26cd545a7af453f881e1adf61adbffbf7f933a1ff526a28fd84",
+    "all_cells.csv": "0e3d1aec354d49f4986161405e8d514211782f5319753a33f08a1359aa533604",
+    "policies.csv": "afdfc8ed376d6b369b70a10a7e7da887776b90d281d8d3084609471a12485fb5",
+    "input_placement.csv": "e300936b9157a41a2cee2035b82ae947f8d13b0492bcdfafa29d106dff301545",
+    "offset_profiles.csv": "38ffbc4f1cca6aaa09c833e37c5a0fb46a1d6a34174d27e6c28661c49d0119f3",
+    "bootstrap_vi_aasist.npy": "d97a43732359d4a053c93253a2ed17df997f0664fcfd66036552ef0ff90cb800",
+    "bootstrap_vi_ssl.npy": "a4dd6305da6f0b540ca522f9ef94c44792bc3b34bca61d3612ab057dec2b305e",
+    "bootstrap_vi_rawnet2.npy": "9438ce5ca4db480c3e34bb2cbdf63f6e73b097c17491d46d95d674b0073bc664",
+    "bootstrap_vi_antideepfake.npy": "f4332aab477162ded617922134b9bb12c8a3b5f38458e9735efab3b92f56d6d0",
+    "bootstrap_itw_aasist.npy": "4d561502f68a090aa71712963e8052208acb160bb80b99a56e62b20d9e6f36bb",
+    "bootstrap_itw_ssl.npy": "d3676e3a460d9e36a40f28ee83b4ee5e6b5aa6fca2db774893d3e129a585b138",
+    "bootstrap_itw_rawnet2.npy": "f80869437595a81f0222e59130f9bb6d94a907bee4285bb9e2a14e9ec478da9e",
+    "bootstrap_itw_antideepfake.npy": "036c43909c553c2720f64da77f5bde0bc9655d9f3db3f06b6ff8e8eb654b3394"
+  }
+}

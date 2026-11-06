@@ -1,0 +1,28 @@
+{
+  "model": "rawnet2",
+  "n_excluded_technical_files": 8,
+  "n_inputs": 344,
+  "torch": "2.5.1",
+  "cpu_vs_mps_max_abs_score_difference": 2.193450927734375e-05,
+  "median_abs_score_difference": 2.86102294921875e-06,
+  "n_differences_over_1e_3": 0,
+  "runtimes": {
+    "cpu": {
+      "seconds": 3.670265542,
+      "seconds_per_input": 0.010669376575581396,
+      "batch_size": 8,
+      "finite": true,
+      "checkpoint_sha256": "52d8ad5f524a0f600c7c876d7a157a8f06c44a03504d0b2795c852f5e42c9127"
+    },
+    "mps": {
+      "seconds": 0.928404875,
+      "seconds_per_input": 0.0026988513808139537,
+      "batch_size": 8,
+      "finite": true,
+      "checkpoint_sha256": "52d8ad5f524a0f600c7c876d7a157a8f06c44a03504d0b2795c852f5e42c9127"
+    }
+  },
+  "selected_device": "mps",
+  "runtime_rule": "Legacy MPS retained with known numerical sensitivity; new model uses MPS only if technical max difference<=1e-3, otherwise CPU. No accuracy-based selection.",
+  "no_scientific_metrics_computed": true
+}

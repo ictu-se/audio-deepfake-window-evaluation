@@ -1,0 +1,7 @@
+{
+  "cells_and_policies_checked": 424,
+  "primary_contrasts_checked": 8,
+  "all_passed": true,
+  "max_absolute_metric_difference": 1.4210854715202004e-14,
+  "method": "Independent ascending sorted-score cumulative sums, explicit tie groups and reverse ROC traversal; no import of shared metric/WeightedEER or sklearn"
+}

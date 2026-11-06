@@ -1,0 +1,17 @@
+{
+  "model": "antideepfake",
+  "group": "calibration",
+  "device": "mps",
+  "torch": "2.5.1",
+  "batch_size": 8,
+  "threads": 4,
+  "checkpoint_sha256": "828ee456122f86d5d631cb7895a10e5c62c78a4fcb8a8b1c42cb5838a9abcfe0",
+  "manifest_sha256": "acb88e99ab2f67972301fb8b832b3a9ba50f6332156cf9932cb39051bedbd5a8",
+  "expected_scores": 400,
+  "new_scores": 400,
+  "previous_scores": 0,
+  "forward_seconds": 6.783586829999991,
+  "wall_seconds": 7.582262374999999,
+  "score_semantics": "fake logit0 minus real logit1 (monotonic fake softmax probability)",
+  "all_modules_eval": true
+}

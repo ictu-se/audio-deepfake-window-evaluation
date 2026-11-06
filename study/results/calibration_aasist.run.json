@@ -1,0 +1,17 @@
+{
+  "model": "aasist",
+  "group": "calibration",
+  "device": "mps",
+  "torch": "2.5.1",
+  "batch_size": 8,
+  "threads": 4,
+  "checkpoint_sha256": "51d2d9cf0738172f61e2a384ec50a54a55363240f67c971ed55a92435bc1a1c0",
+  "manifest_sha256": "acb88e99ab2f67972301fb8b832b3a9ba50f6332156cf9932cb39051bedbd5a8",
+  "expected_scores": 400,
+  "new_scores": 400,
+  "previous_scores": 0,
+  "forward_seconds": 2.181702206999998,
+  "wall_seconds": 2.6177775,
+  "score_semantics": "negative bona fide logit1",
+  "all_modules_eval": true
+}

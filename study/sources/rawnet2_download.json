@@ -1,0 +1,9 @@
+{
+  "url": "https://www.asvspoof.org/asvspoof2021/pre_trained_DF_RawNet2.zip",
+  "archive_sha256": "db0f3e4ba6fdba23752e6e57e1507cd5b3de344d6a36c9699d4439be142dfbf5",
+  "archive_bytes": 66472558,
+  "zip_crc_verified": true,
+  "member": "pre_trained_DF_RawNet2.pth",
+  "model_sha256": "52d8ad5f524a0f600c7c876d7a157a8f06c44a03504d0b2795c852f5e42c9127",
+  "expected_upstream_model_digest_available": false
+}

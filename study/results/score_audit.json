@@ -1,0 +1,78 @@
+{
+  "total_rows": 552000,
+  "checks": {
+    "calibration_aasist": {
+      "files": 400,
+      "conditions": 1,
+      "rows": 400,
+      "all_ID_label_offsets_input_placement_score_checks_passed": true
+    },
+    "calibration_ssl": {
+      "files": 400,
+      "conditions": 1,
+      "rows": 400,
+      "all_ID_label_offsets_input_placement_score_checks_passed": true
+    },
+    "calibration_rawnet2": {
+      "files": 400,
+      "conditions": 1,
+      "rows": 400,
+      "all_ID_label_offsets_input_placement_score_checks_passed": true
+    },
+    "calibration_antideepfake": {
+      "files": 400,
+      "conditions": 1,
+      "rows": 400,
+      "all_ID_label_offsets_input_placement_score_checks_passed": true
+    },
+    "vi_aasist": {
+      "files": 1200,
+      "conditions": 43,
+      "rows": 51600,
+      "all_ID_label_offsets_input_placement_score_checks_passed": true
+    },
+    "vi_ssl": {
+      "files": 1200,
+      "conditions": 43,
+      "rows": 51600,
+      "all_ID_label_offsets_input_placement_score_checks_passed": true
+    },
+    "vi_rawnet2": {
+      "files": 1200,
+      "conditions": 43,
+      "rows": 51600,
+      "all_ID_label_offsets_input_placement_score_checks_passed": true
+    },
+    "vi_antideepfake": {
+      "files": 1200,
+      "conditions": 43,
+      "rows": 51600,
+      "all_ID_label_offsets_input_placement_score_checks_passed": true
+    },
+    "itw_aasist": {
+      "files": 2000,
+      "conditions": 43,
+      "rows": 86000,
+      "all_ID_label_offsets_input_placement_score_checks_passed": true
+    },
+    "itw_ssl": {
+      "files": 2000,
+      "conditions": 43,
+      "rows": 86000,
+      "all_ID_label_offsets_input_placement_score_checks_passed": true
+    },
+    "itw_rawnet2": {
+      "files": 2000,
+      "conditions": 43,
+      "rows": 86000,
+      "all_ID_label_offsets_input_placement_score_checks_passed": true
+    },
+    "itw_antideepfake": {
+      "files": 2000,
+      "conditions": 43,
+      "rows": 86000,
+      "all_ID_label_offsets_input_placement_score_checks_passed": true
+    }
+  },
+  "all_passed": true
+}

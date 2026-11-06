@@ -1,0 +1,26 @@
+[
+  {
+    "name": "res_tssd.pth",
+    "url": "https://raw.githubusercontent.com/ghua-ac/end-to-end-synthetic-speech-detection/36c9705a5bdbb68d01fae484f1b758dd673d9f43/pretrained/Res_TSSDNet_time_frame_61_ASVspoof2019_LA_Loss_0.0017_dEER_0.74%25_eEER_1.64%25.pth",
+    "size": 4251839,
+    "blob": "2367011f958fef1948fdb043d4effa0b3e52936a",
+    "verified_sha256": "056a65fc241a94b4a72e8842278509fdf0421c090da72bb5085b97ff3a1772ba",
+    "integrity_verified": true
+  },
+  {
+    "name": "silero_vad.jit",
+    "url": "https://raw.githubusercontent.com/snakers4/silero-vad/066409f3d9db45a30d21dfcbf9147826ffdd7052/src/silero_vad/data/silero_vad.jit",
+    "size": 2272526,
+    "blob": "5c6988d663950a93a5f0d6c38c2fe024653ec552",
+    "verified_sha256": "e1122837f4154c511485fe0b9c64455f7b929c96fbb8d79fbdb336383ebd3720",
+    "integrity_verified": true
+  },
+  {
+    "name": "antideepfake_small.safetensors",
+    "url": "https://huggingface.co/nii-yamagishilab/wav2vec-small-anti-deepfake/resolve/9a13264b5dcc827a8d5a4f8e01fccefa392f886b/model.safetensors",
+    "size": 380210632,
+    "sha256": "828ee456122f86d5d631cb7895a10e5c62c78a4fcb8a8b1c42cb5838a9abcfe0",
+    "verified_sha256": "828ee456122f86d5d631cb7895a10e5c62c78a4fcb8a8b1c42cb5838a9abcfe0",
+    "integrity_verified": true
+  }
+]

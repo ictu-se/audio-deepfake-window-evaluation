@@ -1,0 +1,8 @@
+{
+  "clean_environment": "Python 3.9 isolated venv, installed requirements.txt",
+  "statistical_outputs_recomputed": 13,
+  "all_statistical_outputs_bitwise_identical": true,
+  "four_table_bodies_identical": true,
+  "three_matplotlib_figures_regenerated": true,
+  "full_fresh_inference_not_reexecuted": true
+}

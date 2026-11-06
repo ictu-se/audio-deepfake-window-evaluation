@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-11-06T11:17:15.002796+00:00",
+  "vi_eligible": {
+    "bonafide": 792,
+    "spoof": 1622
+  },
+  "itw_eligible": {
+    "bonafide": 5202,
+    "spoof": 4820
+  },
+  "targets": {
+    "vi": {
+      "bonafide": 600,
+      "spoof": 600
+    },
+    "itw": {
+      "bonafide": 1000,
+      "spoof": 1000
+    }
+  },
+  "prior_manifest_sha256": {
+    "experiments/runs/shortform_pilot_20261106/secondary_en_incremental_manifest.csv": "ee309d38107a762d18dc405bd1c7269324f44a31240560fd6e4d95bfedd448db",
+    "experiments/runs/shortform_pilot_20261106/pilot_ssl_available_manifest.csv": "8357d049772d853eb57cc0c252a92399b1e82b6fd331b9e9721ffe45fdb97aec",
+    "experiments/runs/shortform_pilot_20261106/calibration_manifest.csv": "acb88e99ab2f67972301fb8b832b3a9ba50f6332156cf9932cb39051bedbd5a8",
+    "experiments/runs/shortform_pilot_20261106/pilot_manifest.csv": "84a7b4d853e8cb648235d9c2f14a9e70fd8b83ccdad610e1e31cf2a0da0e73d5",
+    "experiments/runs/shortform_pilot_20261106/pilot_available_manifest.csv": "84a7b4d853e8cb648235d9c2f14a9e70fd8b83ccdad610e1e31cf2a0da0e73d5",
+    "experiments/runs/shortform_pilot_20261106/technical_manifest.csv": "1d9232031bf814750089a4949d8841b1865ad520154fc158e0aae760e3b4cde2",
+    "experiments/runs/shortform_pilot_20261106/main_vi_manifest.csv": "3311a5e4c1c9b2ece109bad5014fdd5ad7b871a3c2ecf59cdb4f109b075530ef",
+    "experiments/runs/shortform_pilot_20261106/main_vi_incremental_manifest.csv": "22e5bbdb18edaf0cda719e4586477ca0b3f10d8c58a108f529ce19219b9966ff",
+    "experiments/runs/shortform_pilot_20261106/calibration_incremental_manifest.csv": "e41588d50c01101ab2e0b633738ece2978734f4f288fbce4bad8d4ae2817e8e0",
+    "experiments/runs/shortform_pilot_20261106/secondary_en_manifest.csv": "1ee61043b06dafcac1242a32fec8d2645771f1f0797578781ccb72c53c3e0d3d",
+    "experiments/runs/shortform_pilot_20261106/main_cpu_audit_manifest.csv": "2c8e6f65b437ffbb36d4b9b8e56f8680577d6898440c741fc079e1c930cbef02",
+    "experiments/holdout_vi_20261106/candidate_manifest.csv": "1c7747687c92e141ffdaf55b531d2f4435085dcec43cb9466a6758b0d6f41645",
+    "experiments/external_itw_20261106/candidate_manifest.csv": "2567e88c9fba1139d89f653061dace7a31164dcf5fc5de1bad2fc40144781630"
+  },
+  "candidate_sha256": {
+    "vi": "b9a360b71b97a2b9c809b9ae65cfd70841d84b898eba8053af071741f19e8123",
+    "itw": "16f1d9bfdadd8dabff7cf45793e48682ccd67584955cf46552eca8046e1dece4"
+  },
+  "selection": "Within-class SHA256 ranking, all previously considered candidates excluded; only data-quality reserve substitutions; no outcomes viewed",
+  "pcm_audit_required": true
+}

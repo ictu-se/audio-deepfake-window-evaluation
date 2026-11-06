@@ -1,0 +1,353 @@
+{
+  "primary": {
+    "vi_aasist": {
+      "estimate_pp": 5.249999999999999,
+      "interval_99_375_pp": [
+        1.4166666666666634,
+        8.781380208333301
+      ],
+      "bootstrap_draws": 10000,
+      "seed": 20261160,
+      "bootstrap_unit": "file, class-stratified",
+      "speaker_groups": null,
+      "rejected_class_empty_draws": 0,
+      "multiplicity": "Eight model-by-cohort position contrasts, one family; nominal 99.375% percentile interval each"
+    },
+    "vi_ssl": {
+      "estimate_pp": 10.583333333333334,
+      "interval_99_375_pp": [
+        6.58333333333333,
+        14.406380208333303
+      ],
+      "bootstrap_draws": 10000,
+      "seed": 20261160,
+      "bootstrap_unit": "file, class-stratified",
+      "speaker_groups": null,
+      "rejected_class_empty_draws": 0,
+      "multiplicity": "Eight model-by-cohort position contrasts, one family; nominal 99.375% percentile interval each"
+    },
+    "vi_rawnet2": {
+      "estimate_pp": 7.749999999999998,
+      "interval_99_375_pp": [
+        4.083333333333331,
+        11.375000000000002
+      ],
+      "bootstrap_draws": 10000,
+      "seed": 20261160,
+      "bootstrap_unit": "file, class-stratified",
+      "speaker_groups": null,
+      "rejected_class_empty_draws": 0,
+      "multiplicity": "Eight model-by-cohort position contrasts, one family; nominal 99.375% percentile interval each"
+    },
+    "vi_antideepfake": {
+      "estimate_pp": -1.3333333333333335,
+      "interval_99_375_pp": [
+        -4.916666666666663,
+        2.4999999999999987
+      ],
+      "bootstrap_draws": 10000,
+      "seed": 20261160,
+      "bootstrap_unit": "file, class-stratified",
+      "speaker_groups": null,
+      "rejected_class_empty_draws": 0,
+      "multiplicity": "Eight model-by-cohort position contrasts, one family; nominal 99.375% percentile interval each"
+    },
+    "itw_aasist": {
+      "estimate_pp": 10.0,
+      "interval_99_375_pp": [
+        -2.115940975474837,
+        17.907801626573338
+      ],
+      "bootstrap_draws": 10000,
+      "seed": 20261161,
+      "bootstrap_unit": "provided speaker group",
+      "speaker_groups": 53,
+      "rejected_class_empty_draws": 0,
+      "multiplicity": "Eight model-by-cohort position contrasts, one family; nominal 99.375% percentile interval each"
+    },
+    "itw_ssl": {
+      "estimate_pp": 9.5,
+      "interval_99_375_pp": [
+        5.4480677439208725,
+        12.392353648108607
+      ],
+      "bootstrap_draws": 10000,
+      "seed": 20261161,
+      "bootstrap_unit": "provided speaker group",
+      "speaker_groups": 53,
+      "rejected_class_empty_draws": 0,
+      "multiplicity": "Eight model-by-cohort position contrasts, one family; nominal 99.375% percentile interval each"
+    },
+    "itw_rawnet2": {
+      "estimate_pp": 5.549999999999999,
+      "interval_99_375_pp": [
+        1.0726819352301016,
+        12.156348652539508
+      ],
+      "bootstrap_draws": 10000,
+      "seed": 20261161,
+      "bootstrap_unit": "provided speaker group",
+      "speaker_groups": 53,
+      "rejected_class_empty_draws": 0,
+      "multiplicity": "Eight model-by-cohort position contrasts, one family; nominal 99.375% percentile interval each"
+    },
+    "itw_antideepfake": {
+      "estimate_pp": -5.2499999999999964,
+      "interval_99_375_pp": [
+        -9.662367349091639,
+        -0.8260677411966825
+      ],
+      "bootstrap_draws": 10000,
+      "seed": 20261161,
+      "bootstrap_unit": "provided speaker group",
+      "speaker_groups": 53,
+      "rejected_class_empty_draws": 0,
+      "multiplicity": "Eight model-by-cohort position contrasts, one family; nominal 99.375% percentile interval each"
+    }
+  },
+  "secondary": {
+    "vi_aasist": {
+      "vad_common_mask_retained": 161,
+      "retained_by_class": {
+        "0": 22,
+        "1": 139
+      },
+      "vad_subset_position_contrast_pp": null,
+      "interpretation": "Restricted population; predicted speech activity is not ground truth; secondary analysis without family-wide significance claim"
+    },
+    "vi_ssl": {
+      "vad_common_mask_retained": 161,
+      "retained_by_class": {
+        "0": 22,
+        "1": 139
+      },
+      "vad_subset_position_contrast_pp": null,
+      "interpretation": "Restricted population; predicted speech activity is not ground truth; secondary analysis without family-wide significance claim"
+    },
+    "vi_rawnet2": {
+      "vad_common_mask_retained": 161,
+      "retained_by_class": {
+        "0": 22,
+        "1": 139
+      },
+      "vad_subset_position_contrast_pp": null,
+      "interpretation": "Restricted population; predicted speech activity is not ground truth; secondary analysis without family-wide significance claim"
+    },
+    "vi_antideepfake": {
+      "vad_common_mask_retained": 161,
+      "retained_by_class": {
+        "0": 22,
+        "1": 139
+      },
+      "vad_subset_position_contrast_pp": null,
+      "interpretation": "Restricted population; predicted speech activity is not ground truth; secondary analysis without family-wide significance claim"
+    },
+    "itw_aasist": {
+      "vad_common_mask_retained": 13,
+      "retained_by_class": {
+        "0": 4,
+        "1": 9
+      },
+      "vad_subset_position_contrast_pp": null,
+      "interpretation": "Restricted population; predicted speech activity is not ground truth; secondary analysis without family-wide significance claim"
+    },
+    "itw_ssl": {
+      "vad_common_mask_retained": 13,
+      "retained_by_class": {
+        "0": 4,
+        "1": 9
+      },
+      "vad_subset_position_contrast_pp": null,
+      "interpretation": "Restricted population; predicted speech activity is not ground truth; secondary analysis without family-wide significance claim"
+    },
+    "itw_rawnet2": {
+      "vad_common_mask_retained": 13,
+      "retained_by_class": {
+        "0": 4,
+        "1": 9
+      },
+      "vad_subset_position_contrast_pp": null,
+      "interpretation": "Restricted population; predicted speech activity is not ground truth; secondary analysis without family-wide significance claim"
+    },
+    "itw_antideepfake": {
+      "vad_common_mask_retained": 13,
+      "retained_by_class": {
+        "0": 4,
+        "1": 9
+      },
+      "vad_subset_position_contrast_pp": null,
+      "interpretation": "Restricted population; predicted speech activity is not ground truth; secondary analysis without family-wide significance claim"
+    }
+  },
+  "placement_secondary": {
+    "vi_aasist": {
+      "center_minus_left": {
+        "estimate_pp": 2.7361111111111103,
+        "nominal_interval_95_pp": [
+          1.735763888888887,
+          4.056249999999998
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      },
+      "right_minus_left": {
+        "estimate_pp": 2.805555555555552,
+        "nominal_interval_95_pp": [
+          1.4996527777777728,
+          4.2777777777777795
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      }
+    },
+    "vi_ssl": {
+      "center_minus_left": {
+        "estimate_pp": -0.8611111111111134,
+        "nominal_interval_95_pp": [
+          -1.653125000000003,
+          0.3750000000000031
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      },
+      "right_minus_left": {
+        "estimate_pp": 1.0,
+        "nominal_interval_95_pp": [
+          0.05555555555555677,
+          1.9166666666666665
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      }
+    },
+    "vi_rawnet2": {
+      "center_minus_left": {
+        "estimate_pp": 3.5277777777777777,
+        "nominal_interval_95_pp": [
+          2.4156249999999977,
+          4.555555555555555
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      },
+      "right_minus_left": {
+        "estimate_pp": 5.2777777777777795,
+        "nominal_interval_95_pp": [
+          3.9166666666666634,
+          6.583333333333333
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      }
+    },
+    "vi_antideepfake": {
+      "center_minus_left": {
+        "estimate_pp": -2.2500000000000004,
+        "nominal_interval_95_pp": [
+          -3.403124999999999,
+          -1.3333333333333317
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      },
+      "right_minus_left": {
+        "estimate_pp": -1.8611111111111123,
+        "nominal_interval_95_pp": [
+          -3.0833333333333353,
+          -0.7076388888888919
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      }
+    },
+    "itw_aasist": {
+      "center_minus_left": {
+        "estimate_pp": -4.483333333333329,
+        "nominal_interval_95_pp": [
+          -7.336881524182813,
+          -1.1347616927656112
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      },
+      "right_minus_left": {
+        "estimate_pp": -8.149999999999997,
+        "nominal_interval_95_pp": [
+          -12.177167079978384,
+          -3.197120147035639
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      }
+    },
+    "itw_ssl": {
+      "center_minus_left": {
+        "estimate_pp": 3.983333333333334,
+        "nominal_interval_95_pp": [
+          2.1147708499015665,
+          5.7417607160677635
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      },
+      "right_minus_left": {
+        "estimate_pp": 2.3333333333333344,
+        "nominal_interval_95_pp": [
+          1.1476131076490281,
+          3.4691067122595323
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      }
+    },
+    "itw_rawnet2": {
+      "center_minus_left": {
+        "estimate_pp": -1.3833333333333329,
+        "nominal_interval_95_pp": [
+          -4.21236511179727,
+          0.6497270480118598
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      },
+      "right_minus_left": {
+        "estimate_pp": -1.6999999999999988,
+        "nominal_interval_95_pp": [
+          -5.32753255853317,
+          1.4465122104944514
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      }
+    },
+    "itw_antideepfake": {
+      "center_minus_left": {
+        "estimate_pp": 1.2166666666666668,
+        "nominal_interval_95_pp": [
+          0.4333076804376395,
+          1.8396425717260794
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      },
+      "right_minus_left": {
+        "estimate_pp": 2.066666666666668,
+        "nominal_interval_95_pp": [
+          1.2333558806053875,
+          3.0148242146088413
+        ],
+        "bootstrap_draws": 1000,
+        "interpretation": "Predefined secondary paired contrast; identical payload and zero count; not in the eight-test primary family"
+      }
+    }
+  },
+  "limits": [
+    "RADAR file-disjoint, hidden speaker/content/source dependence remains.",
+    "ITW external to our RADAR development; upstream AntiDeepfake already reports ITW benchmark results. No claim upstream-unseen benchmark or training-population independence.",
+    "Pipelines differ in architecture, training mixture and native preprocessing; not a causal architecture comparison.",
+    "VAD predictions are not speech annotations; VAD-restricted cohorts change the population.",
+    "Legacy SSL MPS has known score differences, including current technical probe; CIs quantify sampling, not execution-stack uncertainty.",
+    "Only long-source crops, offline full-recording policies; no native short-utterance or streaming-latency claim.",
+    "Runtime benchmarks use8 excluded technical files with warm OS cache, not a deployment latency study."
+  ]
+}

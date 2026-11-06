@@ -1,0 +1,6 @@
+{
+  "supports_common_input": false,
+  "exception": "RuntimeError",
+  "reason": "max_pool1d() Invalid computed output size: 0",
+  "decision": "Exclude original Res-TSSDNet from common-input comparison before any scientific scoring; do not alter pooling architecture."
+}

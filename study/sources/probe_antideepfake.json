@@ -1,0 +1,28 @@
+{
+  "model": "antideepfake",
+  "n_excluded_technical_files": 8,
+  "n_inputs": 344,
+  "torch": "2.5.1",
+  "cpu_vs_mps_max_abs_score_difference": 0.000286102294921875,
+  "median_abs_score_difference": 3.5822391510009766e-05,
+  "n_differences_over_1e_3": 0,
+  "runtimes": {
+    "cpu": {
+      "seconds": 17.504430291000002,
+      "seconds_per_input": 0.050884971776162795,
+      "batch_size": 8,
+      "finite": true,
+      "checkpoint_sha256": "828ee456122f86d5d631cb7895a10e5c62c78a4fcb8a8b1c42cb5838a9abcfe0"
+    },
+    "mps": {
+      "seconds": 2.553042208000001,
+      "seconds_per_input": 0.007421634325581398,
+      "batch_size": 8,
+      "finite": true,
+      "checkpoint_sha256": "828ee456122f86d5d631cb7895a10e5c62c78a4fcb8a8b1c42cb5838a9abcfe0"
+    }
+  },
+  "selected_device": "mps",
+  "runtime_rule": "Legacy MPS retained with known numerical sensitivity; new model uses MPS only if technical max difference<=1e-3, otherwise CPU. No accuracy-based selection.",
+  "no_scientific_metrics_computed": true
+}
