@@ -1,0 +1,10 @@
+Analyzed vi aasist primary 5.249999999999999 [1.4166666666666634, 8.781380208333301]
+Analyzed vi ssl primary 10.583333333333334 [6.58333333333333, 14.406380208333303]
+Analyzed vi rawnet2 primary 7.749999999999998 [4.083333333333331, 11.375000000000002]
+Analyzed vi antideepfake primary -1.3333333333333335 [-4.916666666666663, 2.4999999999999987]
+Analyzed itw aasist primary 10.0 [-2.115940975474837, 17.907801626573338]
+Analyzed itw ssl primary 9.5 [5.4480677439208725, 12.392353648108607]
+Analyzed itw rawnet2 primary 5.549999999999999 [1.0726819352301016, 12.156348652539508]
+Analyzed itw antideepfake primary -5.2499999999999964 [-9.662367349091639, -0.8260677411966825]
+Four expanded manuscript tables generated from frozen result files.
+PASS: checksums; 13 statistics outputs bitwise identical; table sources identical; three Matplotlib figures regenerated.

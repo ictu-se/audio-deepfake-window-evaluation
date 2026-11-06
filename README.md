@@ -1,6 +1,6 @@
 # Where We Listen Matters in Audio Deepfake Detection
 
-Paired evaluation of four frozen pipelines, two new cohorts (1,200 Vietnamese and 2,000 In-the-Wild files), 43 input conditions and a separate 400-file calibration cohort. The repository contains 552,000 original score rows, coverage predictions, manifests, uncertainty analysis, processing-time observations, and editable Matplotlib/table sources. It contains no manuscript, audio or weights.
+Paired evaluation of four frozen pipelines, two new cohorts (1,200 Vietnamese and 2,000 In-the-Wild files), 43 input conditions and a separate 400-file calibration cohort. The repository contains 552,000 expanded-study score rows plus the historical SSL padding data quoted in Methods, coverage predictions, manifests, uncertainty analysis, processing-time observations, and editable Matplotlib/table sources. It contains no manuscript, audio or weights.
 
 ## Reproduce the reported analysis
 
@@ -11,11 +11,12 @@ python3.9 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 python scripts/verify_reproduction.py
+python scripts/verify_historical_contrast.py
 ```
 
 This verifies every packaged checksum, recomputes all eight 10,000-draw paired primary bootstraps and five statistical summaries, requires 13 outputs to be bitwise identical, regenerates the four article table bodies, and renders the three quantitative figures. No GPU, recordings, model downloads or API keys are needed. Typical execution takes a few minutes. See COLUMN_DEFINITIONS.txt for proportions, percentages, policy inputs, and interval interpretation.
 
-The analysis runs from paths relative to the clone. `study/results` holds scored inputs and analysis outputs; `article_assets` holds source data and editable chart/table scripts. Original execution code and locking records are retained separately as provenance. Hashes are SHA256 in checksums.json; Git commits identify a release.
+The analysis runs from paths relative to the clone. `study/results` holds scored inputs and analysis outputs; `article_assets` holds source data and editable chart/table scripts. Original execution code and locking records are retained separately as provenance. Historical SSL data retain the earlier inconclusive padding result; they are not pooled into the new primary family. The union of earlier identifiers (including unused candidates) is supplied for exclusion verification, without speaker names. Hashes are SHA256 in checksums.json; Git commits identify a release.
 
 ## Fresh inference (optional, substantially larger downloads)
 

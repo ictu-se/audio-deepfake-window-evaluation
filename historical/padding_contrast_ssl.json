@@ -1,0 +1,17 @@
+{
+  "contrast": "mean short-duration EER(zero)-EER(repeat), averaged over 1/2s and start/middle/end",
+  "estimate_percentage_points": -0.1499999999999992,
+  "interval_97_5_percentage_points": [
+    -1.2751041666666687,
+    0.8334375000000029
+  ],
+  "bootstrap_draws": 2000,
+  "bootstrap_unit": "released file, class-stratified; speaker/content grouping unavailable",
+  "multiplicity": "97.5% interval per each of two prespecified model contrasts; secondary cell analyses descriptive",
+  "threshold_from_calibration": 4.425595760345459,
+  "official": {
+    "eer": 0.28400000000000003,
+    "auc": 0.8092550000000001,
+    "eer_threshold": 4.454322338104248
+  }
+}
